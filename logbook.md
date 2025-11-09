@@ -10,3 +10,5 @@
 | 07.11.2025 | 5 | Studying Module 3 | Studied Module 3 content|
 | 08.11.2025 | 5 | Completed Module 4  | Completed Module 3 exam <br> Studied Module 4 content <br> Completed the Module 4 exam |
 | 08.11.2025 | 4 | Completed Module 5  | Studied Module 5 content and analyzed Cybersecurity career <br> Completed the Module exam <br> Uploaded Task 1 at Itslearning |
+| 09.11.2025 | 2 | Final Exam | Completed Final Exam |
+
