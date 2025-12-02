@@ -6,7 +6,7 @@
 # 1️⃣ Introduction
 
 ## Tester(s):
-Name: Your Name
+Name: Md Rasedul Islam
 
 ## Purpose:
 The purpose of this test is to identify vulnerabilities in the **user registration functionality**, including input validation, authentication-related logic, and potential security risks (XSS, SQL Injection, CSRF, weak password policy).
