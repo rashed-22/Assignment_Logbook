@@ -95,3 +95,6 @@ Below are the top vulnerabilities discovered during testing.
 To identify automated security vulnerabilities including missing headers, CSRF issues, and potential injection points.
 
 ### Command used:
+
+### Attached report:
+📄 **zap_report_round1.md**
