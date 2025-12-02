@@ -14,11 +14,12 @@
 | 28.11.2025 | 3 | Registration Page – Functional Testing | Executed 10 functional & security test cases, marked pass/fail results |
 | 29.11.2025 | 5 | OWASP ZAP – Security Testing | Installed OWASP ZAP, ran automated scan, identified 6 security issues, collected screenshots |
 | 29.11.2025 | 2 | Report Writing (Markdown) | Created full test_report.md (functional + ZAP security analysis) |
-| 02.12.2025 | 4 | Phase 1 / Part 2 Deployment | Deployed updated application using Docker, verified service status, accessed the new version at localhost:8001 |
-| 02.12.2025 | 5 | Verification of Part 1 Findings | Retested SQLi, weak password, duplicate email, required validation & UI feedback; confirmed 5/5 issues fixed |
+| 01.12.2025 | 4 | Phase 1 / Part 2 Deployment | Deployed updated application using Docker, verified service status, accessed the new version at localhost:8001 |
+| 01.12.2025 | 4 | Verification of Part 1 Findings | Retested SQLi, weak password, duplicate email, required validation & UI feedback; confirmed 5/5 issues fixed |
 | 02.12.2025 | 4 | OWASP ZAP Round 2 Scan | Performed second automated scan, exported zap_report_round2.md, identified remaining issues (missing CSRF, CSP improvements) |
 | 02.12.2025 | 3 | Discussion Post Writing | Wrote and structured the "Reporting Findings and Fixes" post with evidence and verification steps |
-| 02.12.2025 | 2 | Final Documentation Update | Updated test_report.md for Part 2 and completed logbook updates |
+| 02.12.2025 | 1 | Final Documentation Update | Updated test_report.md for Part 2 and completed logbook updates |
+
 
 
 
