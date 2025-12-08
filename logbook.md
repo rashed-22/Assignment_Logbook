@@ -19,6 +19,12 @@
 | 02.12.2025 | 2 | OWASP ZAP Round 2 Scan | Performed second automated scan, exported zap_report_round2.md, identified remaining issues (missing CSRF, CSP improvements) |
 | 02.12.2025 | 2 | Discussion Post Writing | Wrote and structured the "Reporting Findings and Fixes" post with evidence and verification steps |
 | 02.12.2025 | 1 | Final Documentation Update | Updated test_report.md for Part 2 and completed logbook updates |
+| 05.12.2025  | 3          | Phase 2 – Environment Setup                | Deployed Phase 2 Docker environment, verified services at http://localhost:8002 |
+| 06.12.2025  | 4          | Phase 2 – Functional & Security Testing    | Re-tested validation, XSS, SQLi, CSRF, session handling, rate limiting |
+| 06.12.2025  | 3          | Phase 2 – ZAP Round 3 Scan                 | Performed updated automated scan, analyzed new vulnerabilities, exported Markdown report |
+| 07.12.2025  | 4          | Phase 2 – Password Cracking Task           | Extracted hashes, attempted cracking with 3 online tools, documented explanations + screenshots |
+| 08.12.2025  | 4         | Phase 2 – Report Writing                   | Wrote zap_report_round3.md, updated test_report.md, prepared password_cracking_report.md |
+
 
 
 
