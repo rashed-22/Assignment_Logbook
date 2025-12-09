@@ -23,7 +23,10 @@
 | 06.12.2025  | 4          | Phase 2 – Functional & Security Testing    | Re-tested validation, XSS, SQLi, CSRF, session handling, rate limiting |
 | 06.12.2025  | 3          | Phase 2 – ZAP Round 3 Scan                 | Performed updated automated scan, analyzed new vulnerabilities, exported Markdown report |
 | 07.12.2025  | 4          | Phase 2 – Password Cracking Task           | Extracted hashes, attempted cracking with 3 online tools, documented explanations + screenshots |
-| 08.12.2025  | 4         | Phase 2 – Report Writing                   | Wrote zap_report_round3.md, updated test_report.md, prepared password_cracking_report.md |
+| 08.12.2025  | 4         | Phase 2 – Report Writing                   | Wrote and Submit zap_report_round3.md, updated test_report.md, prepared password_cracking_report.md |
+| 09.12.2025  | 6          | Phase 2 – Password Cracking Task           | Tried to crack password by offline methods |
+| 09.12.2025  | 2          | Phase 2 – Password Cracking Task           | Cracked 7 passwords by Online Tool (CrackStation) and resubmitted the reports |
+
 
 
 
