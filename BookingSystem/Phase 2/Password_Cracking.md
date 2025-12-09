@@ -18,14 +18,21 @@ This helps evaluate password strength, hashing method security, and resistance a
 6. 21232f297a57a5a743894a0e4a801fc3
 7. 900150983cd24fb0d6963f7d28e17f72
 
-## 3️⃣ Cracking Attempts (Online Tools)
+## 3️⃣ Cracking Attempts (Online Tools and Hashcat)
+👉 Hashcat failed to crack the password because my laptop does not have enough GPU/CPU memory.
+The OpenCL backend could not initialize, showing:
+
+
+
+Therefore, the dictionary attack could not run.
 
 👉 CrackStation.net
 
-## 4️⃣ Results & Explanations
+## 4️⃣ Results Screenshot & Explanations
 
-## Screnshots
-![Cracked Password Screenshot](./Phase%202/Cracked_password.png)
+## Screenshots
+![Cracked Screenshot](../Phase%202/Cracked_password.png)
+
 
 
 | Hash | Tool Used | Result | Explanation |
