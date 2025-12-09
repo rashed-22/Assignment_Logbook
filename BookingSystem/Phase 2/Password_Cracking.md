@@ -24,6 +24,10 @@ This helps evaluate password strength, hashing method security, and resistance a
 
 ## 4️⃣ Results & Explanations
 
+## Screnshots
+![Cracked Password Screenshot](./Phase%202/Cracked_password.png)
+
+
 | Hash | Tool Used | Result | Explanation |
 |------|-----------|--------|-------------|
 | `5f4dcc3b5aa765d61d8327deb882cf99` | CrackStation | ✅ password | Very weak MD5 hash |
