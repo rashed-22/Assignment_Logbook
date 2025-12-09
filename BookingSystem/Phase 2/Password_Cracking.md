@@ -29,6 +29,7 @@ Therefore, the dictionary attack could not run.
 
 ## Online Tool
 For this reason, I used online tools to crack some common easy passwords.
+
 👉 CrackStation.net
 
 ## 4️⃣ Results Screenshot & Explanations
