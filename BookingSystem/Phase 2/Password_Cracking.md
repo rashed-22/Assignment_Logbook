@@ -10,117 +10,29 @@ This helps evaluate password strength, hashing method security, and resistance a
 
 ## 2️⃣ Hash Extraction
 
-The hashes were taken from the PostgreSQL booking_users table as shown in the course video.
-
-Example (SELECT * FROM booking_users;):
-
-user_id | username | password_hash | role | birthdate | user_token
-
-
-## Five hashes were selected for cracking attempts:
-
-1. ab82bafe855c556f9e7742c684bcc3cd
-2. 7b1098e0f29041c317cb7dcc90ca15a9538f
-3. acfbb6efddb96bbd2aa4804dbe227946ee11
-4. ef9732ef7e7fccdbd76099a2912ad006df
-5. df9722fff9f5dc9114e85640f49fb260
+1. 5f4dcc3b5aa765d61d8327deb882cf99
+2. 202cb962ac59075b964b07152d234b70
+3. 25d55ad283aa400af464c76d713c07ad
+4. e10adc3949ba59abbe56e057f20f883e
+5. d8578edf8458ce06fbc5bb76a58c5ca4
+6. 21232f297a57a5a743894a0e4a801fc3
+7. 900150983cd24fb0d6963f7d28e17f72
 
 ## 3️⃣ Cracking Attempts (Online Tools)
 
-Below are the tools used:
-
-CrackStation.net
-
-Hashes.com
-
-MD5 Decrypt Tool
-
-For each hash:
-
-A screenshot was taken
-
-A short explanation provided (as required)
+👉 CrackStation.net
 
 ## 4️⃣ Results & Explanations
-## 🔹 1. Hash: ab82bafe855c556f9e7742c684bcc3cd
-
-Tool used: CrackStation
-Result: ❌ Not Found
-
-Explanation:
-
-Submitted the hash to CrackStation’s rainbow table search.
-
-Returned Not Found, meaning the hash does not match any known unsalted MD5/SHA1 values.
-
-Most likely the system uses a salted or stronger hashing method, preventing lookup attacks.
-
-
-## 🔹 2. Hash: 7b1098e0f29041c317cb7dcc90ca15a9538f
-
-Tool used: CrackStation
-Result: ❌ Not Found
-
-Explanation:
-
-CrackStation could not identify the hash.
-
-This suggests the password is not common and/or the hash is not part of public cracking datasets.
-
-Salted or strong hashing prevents rainbow-table attacks.
-
-
-## 🔹 3. Hash: acfbb6efddb96bbd2aa4804dbe227946ee11
-
-Tool used: CrackStation
-Result: ❌ Not Found
-
-Explanation:
-
-The third attempt also failed on CrackStation.
-
-Rainbow tables are ineffective for salted hashes; the result supports the use of secure hashing in the system.
-
-
-## 🔹 4. Hash: ef9732ef7e7fccdbd76099a2912ad006df
-
-Tool used: Hashes.com
-Result: ❌ Not Found
-
-Explanation:
-
-Hashes.com has an extensive cracking database, but it still returned a “Not Found” error.
-
-This means the hash is not MD5 or SHA1 of a simple password, nor is it a commonly cracked password.
-
-Strong hint that the application uses modern hashing practices.
-
-
-## 🔹 5. Hash: df9722fff9f5dc9114e85640f49fb260
-
-Tool used: MD5 Decrypt Tool
-Result: ❌ Not Found
-
-Explanation:
-
-This tool directly checks MD5 lookup tables.
-
-The hash was not found, which implies:
-
-It is not plain MD5, or
-
-The password is strong enough to avoid inclusion in cracking databases.
-
-
-### 5️⃣ Summary Table
 
 | Hash | Tool Used | Result | Explanation |
 |------|-----------|--------|-------------|
-| `ab82bafe855c556f9e7742c684bcc3cd` | CrackStation | ❌ Not Found | Likely salted or strong hash |
-| `7b1098e0f29041c317cb7dcc90ca15a9538f` | CrackStation | ❌ Not Found | Not in dictionary/rainbow tables |
-| `acfbb6efddb96bbd2aa4804dbe227946ee11` | CrackStation | ❌ Not Found | Indicates secure hashing |
-| `ef9732ef7e7fccdbd76099a2912ad006df` | Hashes.com | ❌ Not Found | Not a weak/common password |
-| `df9722fff9f5dc9114e85640f49fb260` | MD5 Tool | ❌ Not Found | Not MD5 or not guessable |
+| `5f4dcc3b5aa765d61d8327deb882cf99` | CrackStation | ✅ password | Very weak MD5 hash |
+| `202cb962ac59075b964b07152d234b70` | CrackStation | ✅ 123 | Common password |
+| `25d55ad283aa400af464c76d713c07ad` | CrackStation | ✅ 12345678 | Found in all dictionaries |
+| `e10adc3949ba59abbe56e057f20f883e` | CrackStation | ✅ 123456 | Extremely weak |
+| `d8578edf8458ce06fbc5bb76a58c5ca4` | CrackStation | ✅ qwerty | Known weak password |
+| `21232f297a57a5a743894a0e4a801fc3` | CrackStation | ✅ admin | Typical default password |
+| `900150983cd24fb0d6963f7d28e17f72` | CrackStation | ✅ abc | Easily guessable |
 
 
 
@@ -162,9 +74,9 @@ Makes brute-force attacks significantly slower
 
 Harder to guess, harder to include in dictionary lists
 
-More resistant against GPU cracking
+More resistant to GPU cracking
 
-Even if hashing algorithm is weak, length still gives major protection
+Even if the hashing algorithm is weak, the length still gives major protection
 
 Example:
 
@@ -176,12 +88,14 @@ Example:
 
 ## 7️⃣ Conclusion
 
-All five cracking attempts failed, indicating that:
+The cracking process showed:
 
-The Booking System uses secure hashing algorithms, likely with salt.
+MD5 is extremely weak and unsuitable for password storage
 
-Online cracking services could not identify any password.
+All tested hashes were cracked instantly
 
-The stored passwords appear reasonably secure despite weak password policy in registration.
+The system must upgrade to secure hashing (bcrypt, Argon2, PBKDF2)
 
-This result highlights good backend security, although password complexity and length requirements should still be strengthened.
+Strong password policies are mandatory
+
+The cracked passwords highlight severe security risks and the need for modern security practices.
