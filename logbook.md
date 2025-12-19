@@ -26,6 +26,11 @@
 | 08.12.2025  | 4         | Phase 2 – Report Writing                   | Wrote and Submit zap_report_round3.md, updated test_report.md, prepared password_cracking_report.md |
 | 09.12.2025  | 6          | Phase 2 – Password Cracking Task           | Tried to crack password by offline methods |
 | 09.12.2025  | 2          | Phase 2 – Password Cracking Task           | Cracked 7 passwords by Online Tool (CrackStation) and resubmitted the reports |
+| 16.12.2025  | 4          | Phase 3 – Deployment & Guest Testing          | Deployed Phase 3 containers. Guest role testing Recorded |
+| 17.12.2025  | 4          | Phase 3 – Reserver & Admin Testing        | Tested all role-based permissions, API access, endpoint behavior|
+| 18.12.2025  | 3          | Phase 3 – ZAP Round 4         | Performed ZAP authorization scan, collected alerts|
+| 18.12.2025  | 3          | Phase 3 – Report Writing         | Prepared auth_test_report.md and zap_report_round4.md |
+
 
 
 
