@@ -28,8 +28,12 @@
 | 09.12.2025  | 2          | Phase 2 – Password Cracking Task           | Cracked 7 passwords by Online Tool (CrackStation) and resubmitted the reports |
 | 16.12.2025  | 4          | Phase 3 – Deployment & Guest Testing          | Deployed Phase 3 containers. Guest role testing Recorded |
 | 17.12.2025  | 4          | Phase 3 – Reserver & Admin Testing        | Tested all role-based permissions, API access, endpoint behavior|
-| 18.12.2025  | 3          | Phase 3 – ZAP Round 4         | Performed ZAP authorization scan, collected alerts|
-| 18.12.2025  | 3          | Phase 3 – Report Writing         | Prepared auth_test_report.md and zap_report_round4.md |
+| 18.12.2025  | 1          | Phase 3 – ZAP Round 4         | Performed ZAP authorization scan, collected alerts|
+| 18.12.2025  | 1          | Phase 3 – Report Writing         | Prepared auth_test_report.md and zap_report_round4.md |
+| 18.12.2025 | 1          | Phase 4 – Environment Setup | Deployed Phase 4 containers |
+| 18.12.2025 | 2          | GDPR Checklist Testing      | Went through all GDPR requirements <br> Tested registration, data collection, data minimization <br> Checked access control vs GDPR <br> Identified fails, passes, attention points <br> Completed GDPR_checklist.md |
+| 18.12.2025 | 2          | Policy Document Creation    | Wrote privacy policy (privacypolicy.md) <br> Wrote terms of service (termsofservice.md) <br> Wrote cookie policy (cookiepolicy.md) <br> Ensured GDPR compliance and readability |
+
 
 
 
