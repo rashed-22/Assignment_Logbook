@@ -3,6 +3,7 @@
 ---
 
 ## 🔐 Topic: SQL Injection
+![SQL Injection](Screenshot_105.png)
 
 ### SQL injection vulnerability in the WHERE clause, allowing the  retrieval of hidden data
 
@@ -19,6 +20,7 @@ This lab demonstrated how SQL injection can be used to bypass authentication mec
 ---
 
 ## 🔑 Topic: Authentication
+![Authentication](Screenshot_106.png)
 
 ### Username enumeration via different responses
 
@@ -43,6 +45,8 @@ In this lab, I learned how two-factor authentication can be bypassed if it is no
 ---
 
 ## 🚪 Topic: Access Control
+
+![Access_Control](Screenshot_107.png)
 
 ### Unprotected admin functionality
 
