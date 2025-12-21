@@ -11,6 +11,15 @@
 | 08.11.2025 | 5 | Completed Module 4  | Completed Module 3 exam <br> Studied Module 4 content <br> Completed the Module 4 exam |
 | 08.11.2025 | 4 | Completed Module 5  | Studied Module 5 content and analyzed Cybersecurity career <br> Completed the Module exam <br> Uploaded Task 1 at Itslearning |
 | 09.11.2025 | 2 | Final Exam | Completed Final Exam |
+| 15.11.2025 | 2 | PortSwigger Environment Exploration | Created PortSwigger account <br> Explored Web Security Academy <br> Reviewed lab structure and OWASP-aligned topics |
+| 15.11.2025 | 1 | SQL Injection Labs | Completed SQL injection vulnerability in WHERE clause, allowing retrieval of hidden data <br> Tested URL parameter manipulation and query logic bypass |
+| 15.11.2025 | 1 | SQL Injection Labs | Completed SQL injection vulnerability allowing login bypass <br> Analyzed authentication query behavior and SQL payload impact |
+| 17.11.2025 | 1 | Authentication Labs | Completed Username enumeration via different responses <br> Used Burp Suite Intruder to identify valid username and brute-force password |
+| 17.11.2025 | 1 | Authentication Labs | Completed Password reset broken logic <br> Analyzed reset token handling and exploited insecure password recovery flow |
+| 17.11.2025 | 1 | Authentication Lab | Completed 2FA simple bypass lab <br> Analyzed weak 2FA flow enforcement <br> Bypassed verification step by directly accessing /my-account |
+| 18.11.2025 | 1 | Access Control Labs | Completed Unprotected admin functionality <br> Accessed admin endpoint without authorization and performed privileged actions |
+| 18.11.2025 | 1 | Access Control Labs | Completed User role can be modified in user profile <br> Manipulated role ID in client-side request to escalate privileges to admin |
+| 18.11.2025 | 1 | Assignment Documentation | Updated logbook.md <br> Prepared Grade 1 PortSwigger assignment submission with reflections |
 | 28.11.2025 | 3 | Registration Page – Functional Testing | Executed 10 functional & security test cases, marked pass/fail results |
 | 29.11.2025 | 5 | OWASP ZAP – Security Testing | Installed OWASP ZAP, ran automated scan, identified 6 security issues, collected screenshots |
 | 29.11.2025 | 2 | Report Writing (Markdown) | Created full test_report.md (functional + ZAP security analysis) |
@@ -33,6 +42,7 @@
 | 18.12.2025 | 1          | Phase 4 – Environment Setup | Deployed Phase 4 containers |
 | 18.12.2025 | 2          | GDPR Checklist Testing      | Went through all GDPR requirements <br> Tested registration, data collection, data minimization <br> Checked access control vs GDPR <br> Identified fails, passes, attention points <br> Completed GDPR_checklist.md |
 | 18.12.2025 | 2          | Policy Document Creation    | Wrote privacy policy (privacypolicy.md) <br> Wrote terms of service (termsofservice.md) <br> Wrote cookie policy (cookiepolicy.md) <br> Ensured GDPR compliance and readability |
+
 
 
 
